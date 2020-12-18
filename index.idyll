@@ -1,0 +1,193 @@
+[meta title:"Navchena" description:"Short description of your project" /]
+
+[Header
+  fullWidth:true
+  title:"Navchena"
+  subtitle:"A digital project about Ukrainian women at the end of the 19th century"
+  author:"Violetta Karpenko"
+  authorlink:"linkedin.com/in/violetta-karpenko/"
+  date:`(new Date()).toDateString()`
+  background:"#222222"
+  color:"#ffffff" 
+   /]
+
+## About
+This is a final Digital Humanities project made by me, Violetta Karpenko, 
+a fourth-year student at Minerva Schools at KGI.
+It explores the life of educated Ukrainian females on the verge of the 20th century.
+I find its utmost value in 
+1. turning history learning into a fun experiences
+2. bringing together concepts from multiple disciplines, like feminism, history theory, and digital humanities.
+
+[blockquote]“Usually intelligentsia is called the social class, whose representatives are occupied with intellectual, primarily creative work, politics, development and popularization of culture, but such definition does not fully describe that social class in the context of then Ukrainian realities. One of the key signs of belonging to the intelligentsia in Ukrainian understanding at that time was education: a person who was educated could already claim to be part of the intelligentsia.” [footer/] Kateryna Kobchenko in *Ukrainian women in the furnace of modernization*, 2017 [/blockquote]
+
+Given the context of female rights at the time, receiving any education was already going against the norm. My work (unfortunately or not) does not focus on low-class women but rather on those who were not conforming to the existing social rules and while they were doing it in many different ways, one of the unifying features was their education! Education as the first step to empowerment and social change. Therefore, I decided to call this project **Navchena** - which from Ukrainian translates as **educated or trained female.** It has another layer of meaning, however, implying that someone else has taught her, showing that, however empowering the education at the time was, it was still brought by men and could only be allowed by the father of the household.
+
+[hr/]
+
+[Scroller currentStep:state]
+  [Step]
+
+    ## Introduction
+  
+  Hi, I am **Sofia Rusova**
+  I lived at around the same time as your **great-grandmother**, 
+  and today I hope to tell you more about her life by exploring 
+  my own life and that of the other women in what is now Ukraine in the end of 19th century. 
+  Take a moment and *ask yourself or your mother*: has your great-grandmother was able to get education?
+  Primary? Secondary? University degree? Whether it is a **'yes'**, or a **'no'**, today I hope to help you explain why.
+  ![portrait](static/images/rusova.png)
+  
+  I myself was an educator, and public activist. 
+    If you were to read my resume it would have things like: 
+
+* created a new system of pedagogy based on things we love and promote in our education today;
+* founded the first national kindergarten in Ukraine;
+* led National organization of teachers;
+* was a member of the Ukrainian Central Government, where I led the Department of pre-school and extra-curricular education;
+* was one of the founders of the women’s movement in Ukraine.
+
+  Now as I boosted some of that credibility, let's go on that journey into the past.
+ 
+  [/Step]
+
+[/Scroller]
+
+##Quiz
+  Let me ask you a couple of questions to situate you in the time and place. Whenever you answer **yes**, I will tell you about a women, astonishing individual from the past, who, in some ways, was just like you, despite 100 years of difference.
+
+ 
+  Do you enjoy performing on stage?
+  [var name:"Q1" value:false /]
+
+  [Boolean value:Q1 /] [Display value:`Q1 ? "Yefrosynia Zarnyts’ka did too! She was an actress, had a beautiful voice and performed on stages all over Russian Empire and then went abroad." : "Check the box if YES."  `/]
+
+  Have you ever been in love with the person from the counter-culture?
+  [var name:"Q2" value:false /]
+
+  [Boolean value:Q2 /] [Display value:`Q2 ? "As a young 15-year-old girl Hanna Barvinok fell in love with Panteleimon Kulish, an active participant of a secret anti-government and anti-imeprial organization (for which he was later put in a jail) and a promoter of Ukrainian national idea." : "Check the box if YES."  `/]
+
+  Are you not ethnically from your country of birth but feel like you belong here?
+  [var name:"Q3" value:false /]
+
+  [Boolean value:Q3 /] [Display value:`Q3 ? "Yefrosynia Zarnyts’ka was half Greek and half Polish but spent her life performing in Ukrainian and promoting Ukrainian theater" : "Check the box if YES."  `/]
+
+  Have you ever had to give up your interests for your family?
+  [var name:"Q5" value:false /]
+
+  [Boolean value:Q5 /] [Display value:`Q5 ? "The literary heritage of Hanna Barvinok is modest but impressive. Critics argue she could have a great writing career but gave it up for the family." : "Check the box if YES."  `/]
+
+  Have you ever lived in another country?
+  [var name:"Q6" value:false /]
+
+  [Boolean value:Q6 /] [Display value:`Q6 ? "Chernihiv - Warsaw - St Petersburg - Tula - Chernihiv. Not one, but three countries experienced Hanna Barvinok with cities far away from one another geographically and culturally. Sofia Morachevs’ka also moved around a lot looking for opportunities study and work." : "Check the box if YES."  `/]
+
+  Do you earn by writing?
+  [var name:"Q7" value:false /]
+
+  [Boolean value:Q7 /] [Display value:`Q7 ? "Maria Vilins’ka sustained herself, her son, and her travels in Europe by constantly producing new works." : "Check the box if YES."  `/]
+
+  Would you be able to/have you ever had more than one partner at a time?
+  [var name:"Q8" value:false /]
+
+  [Boolean value:Q8 /] [Display value:`Q8 ? "The gossip goes Maria Vilins’ka made Ukrainian and Russian men give up their wives to come to Europe and spend time with her. But once they arrived, they would find her having new affairs with European men." : "Check the box if YES."  `/]
+
+  Would you like to settle down in a small town?
+  [var name:"Q9" value:false /]
+
+  [Boolean value:Q9 /] [Display value:`Q9 ? "Have you ever been to Pervomaisk? Guess what, that little town on the south of Ukraine was where Yefrosynia Zarnyts’ka choose to get old! How about Nalchik? After the life in high cities of St Petersburg and Paris, it was Nalchik that Maria Vilins'ka chose for retirement." : "Check the box if YES."  `/]
+
+  Do you like participating in hot political debates online?
+  [var name:"Q10" value:false /]
+
+  [Boolean value:Q10 /] [Display value:`Q10 ? "Natalia Ozarkevych (Kobryns’ka) sent letters to Klara Tsetkin debating whether socialism could be a productive direction for advancing feminist goals." : "Check the box if YES."  `/]
+
+  Have you ever managed a work of the group of people?
+  [var name:"Q11" value:false /]
+
+  [Boolean value:Q11 /] [Display value:`Q11 ? "<<Pershiy Vinok>> is the first ever publication of fictional and scholarly works of female-only writers. It was gathered and edited by Natalia Ozarkevych (Kobryns’ka) and Olena Pchilka" : "Check the box if YES."  `/]
+
+  Do you live with parents?
+  [var name:"Q12" value:false /]
+
+  [Boolean value:Q12 /] [Display value:`Q12 ? "After the death of her husband, Natalia Ozarkevych (Kobryns’ka) returned to her father's home but didn't stop her political and social activism and is often seen as the first Ukrainian feminist." : "Check the box if YES."  `/]
+
+  Have you ever had a private teacher?
+  [var name:"Q13" value:false /]
+
+  [Boolean value:Q13 /] [Display value:`Q13 ? "You are not alone! Before women got access to institutionalized education, every family that had enough money and cared for their social status tried to educate their daughters with the help of private teachers." : "Check the box if YES."  `/]
+
+  Would you move to another place to get high-quality education?
+  [var name:"Q14" value:false /]
+
+  [Boolean value:Q14 /] [Display value:`Q14 ? "Sofia Morachevs'ka had to move to Zurich, Switzerland, because in Austro-Hungarian empire, higher education was allowed exclusively to men." : "Check the box if YES."  `/]
+
+  Do you enjoy implementing crazy ideas?
+  [var name:"Q15" value:false /]
+
+  [Boolean value:Q15 /] [Display value:`Q15 ? "Sofia Morachevs'ka was the first doctor in Western Ukraine who used the radioactivity of radium to fight cancer, following Maria Sklodowska-Curie" : "Check the box if YES."  `/]
+
+  Do you believe that education in school should nurture a national idea?
+  [var name:"Q17" value:false /]
+
+  [Boolean value:Q17 /] [Display value:`Q17 ? "I, myself, Sofia Rusova, believed that a school is a primary place for growing national sentiments in citizens, and with this agenda I led the Department of pre-school and extra-curricular education." : "Check the box if YES."  `/]
+
+  Do you believe that the current educational systems should be reformed?
+  [var name:"Q18" value:false /]
+
+  [Boolean value:Q18 /] [Display value:`Q18 ? "If you think it should, you might learn a lesson or two from me, Sofia Rusova. I created a new system of pedagogy built on humanism, democracy, cultural dexterity, and individual approach." : "Check the box if YES."  `/]
+
+[Scroller]
+
+##Biographies
+This section allows you to explore more women from the time!
+
+[var name:"stepperIndex" value:0 /]
+
+[Stepper fullWidht:true currentStep:stepperIndex]
+  [Graphic]
+    onClick: [img src:`"static/images/" + stepperIndex + ".png"` /]
+  [/Graphic]
+
+  [Step]### Hanna Barvinok[/Step]
+  [Step]### Halushki[/Step]
+  [Step]### tutuuu[/Step]
+
+  [StepperControl /]
+[/Stepper]
+    
+  [Step]
+    ##Maria Vilins'ka
+    ![portrait](static/images/marco vovchok.png)
+    Also known as Marco Vovchok. She was one of the pioneering females in Ukrainian literature, wrote under the male name, and was the first one to translate Jules Verne into Russian, married a dissident to escape from her relatives. She travelled a lot around Europe meeting her numerous lovers. After high life in European capitals, settled down in a small town in the south of the Russian Empire.  
+  [/Step]
+
+  [Step]
+    ##Sofia Morachevs’ka
+    ![portrait](static/images/okunevska.png)
+    The first female in the Austro-Hungarian empire to get a PhD of medicine. She left her home and went all the way to Zurich to get a degree (it was the only place at that time she was legally allowed to do so - the entire crowd gathered when she was defending her thesis). She spent her life serving people and bringing Western innovations in medicine (like treating cervical cancer with radium) back to her region.
+  [/Step]
+
+  [Step]
+    ##Natalia Kobylyans'ka
+    ![portrait](static/images/kobylanskya.png)
+    this is her story
+  [/Step]
+
+  [Step]
+  ## Mobility
+
+  [ReactMapGL
+    width:400
+    height:400
+    latitude:47.6062
+    longitude:-122.3321
+    zoom:8
+    mapboxApiAccessToken: "pk.eyJ1IjoiZGlsaWphbjE3IiwiYSI6ImNraXJ1ZTZjejB0NmgyeXJ4ZDlvcmphMjUifQ.D8AjtmjS0eNrdAegqE8gWQ"
+    /]
+  [/Step]
+
+[/Scroller]
+
+##Meta
+[Here](https://docs.google.com/document/d/1C76m98gkTlX5Eeuw7eXu8PZWHBPF5JIZUp8EGvaFDN4/edit?usp=sharing) you can find the documentation of my work and the detailed explanation of the process.
